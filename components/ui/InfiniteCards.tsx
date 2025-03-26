@@ -118,7 +118,7 @@ export const InfiniteMovingCards = ({
                 
                 <span className="flex flex-col gap-1">
                   {/* change text color, font-normal to font-bold, text-xl */}
-                  <span className="text-xl font-bold leading-[1.6] text-white">
+                  <span className="text-base font-bold leading-[1.6] text-white">
                     {item.quote}
                   </span>
                   {/* change text color */}
