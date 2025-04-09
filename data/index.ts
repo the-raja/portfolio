@@ -78,7 +78,7 @@ export const projects = [
     des: "A powerful storage management designed for effortless file organization, retrieval, and collaboration",
     img: "/cloudly.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://cloudly-iota.vercel.app/sign-in",
+    link: "https://cloudly-storage.vercel.app/",
   },
   {
     id: 2,
@@ -92,6 +92,12 @@ export const projects = [
 ];
 
 export const testimonials = [
+    {
+    quote:
+      "Success is not final, failure is not fatal: It is the courage to continue that counts.- Winston Churchill. This quote has guided me through tough times and reminded me to keep pushing forward.",
+    name: "",
+    title: "5. Guiding Principles",
+  },
   {
     quote:
       "As I look back on my journey, I'm excited about the future and the opportunities ahead. I invite you to explore my resume and projects to see the work that I'm passionate about. Let's connect and create something amazing together.",
@@ -121,12 +127,6 @@ export const testimonials = [
       "Throughout my career, I've been fortunate to achieve several milestones. I've made many websites, including cloning the Apple iPhone 14 website and developing a version of ChatGPT. These projects not only showcased my technical skills but also reaffirmed my dedication to leveraging technology for impactful solutions.",
     name: "",
     title: "4. Career Milestones",
-  },
-  {
-    quote:
-      "Success is not final, failure is not fatal: It is the courage to continue that counts.- Winston Churchill. This quote has guided me through tough times and reminded me to keep pushing forward.",
-    name: "",
-    title: "5. Guiding Principles",
   },
 ];
 
