@@ -20,8 +20,9 @@ const Hero = () => {
           className="h-[80vh] w-[50vw] top-10 left-full"
           fill="Yellow" //toplower
         />
-        <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]"
-         fill="white"   //rightabove
+        <Spotlight
+          className="left-80 top-28 h-[80vh] w-[50vw]"
+          fill="white" //rightabove
         />
       </div>
 
@@ -45,7 +46,7 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-gold max-w-80 font-bold">
-            &quot;If it compiles, ship it. If it breaks, debug it.&quot;
+            &quot;DESIGN → BUILD → IMPROVE → REPEAT&quot;
           </p>
 
           {/**
@@ -54,12 +55,14 @@ const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
           <TextGenerateEffect
-            words="Hi! I&apos;m RAJA, currently a Bachelor's student at KIIT."
+            words="Hi! I'm RAJA"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl text-grey">
-              Hands-on with Web-Development, DevOps and DSA, with a growing taste for AIML, Cybersecurity, and Data Analytics.
+            Software Engineering Bachelor’s student at KIIT
+            <br /> with a strong focus on problem solving,production-grade code,
+            <br /> and scalable systems.
           </p>
 
           <a href="#projects">

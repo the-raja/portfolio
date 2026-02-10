@@ -19,7 +19,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "Vision to connect and learn with people - globally",
+    title: "Building with globally adopted technologies",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -30,7 +30,7 @@ export const gridItems = [
   {
     id: 3,
     title: "My tech stack",
-    description: "I constantly try to improve",
+    description: "Continuously Improving My Core Skills",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -39,7 +39,8 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Constantly learning, evolving, and pushing the boundaries of what’s possible",
+    title:
+      "Constantly learning, evolving, and pushing the boundaries of what’s possible",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -50,7 +51,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currentlyworking on a DS project",
+    title: "Currently working on a Automation Project",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -68,7 +69,6 @@ export const gridItems = [
     img: "",
     spareImg: "",
   },
-  
 ];
 
 export const projects = [
@@ -82,17 +82,22 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/the-raja",
+    title: "Real-Time Chess Game",
+    des: "A client-side AI that calculates win probability based on a sophisticated heuristic evaluation function built with Node.js, Express, and Socket.io.",
+    img: "/chess.png",
+    iconLists: [
+      "/next.svg",
+      "/express.svg",
+      "/ts.svg",
+      "/stream.svg",
+      "/c.svg",
+    ],
+    link: "https://chess-18sx.onrender.com/",
   },
-
 ];
 
 export const testimonials = [
-    {
+  {
     quote:
       "Success is not final, failure is not fatal: It is the courage to continue that counts.- Winston Churchill. This quote has guided me through tough times and reminded me to keep pushing forward.",
     name: "",
@@ -197,35 +202,34 @@ export const companies = [
     img: "/aws.svg",
     nameImg: "/dockerName.svg",
   },
-
 ];
 
 export const workExperience = [
   {
     id: 1,
     title: " Data Structures and Algorithms",
-    desc: "Optimized algorithms and data structures for scalable web applications, enhancing performance and efficiency in frontend and backend operations.",
+    desc: "Strong foundation in data structures and algorithms, with hands-on experience in problem solving, time–space optimization, and applying algorithmic thinking to real-world systems and applications.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
     title: "Object-Oriented Programming (OOP)",
-    desc: "Implemented modular and reusable components in software development, ensuring maintainability and scalability across web and mobile platforms.",
+    desc: "Applied object-oriented principles such as abstraction, inheritance, and polymorphism to design modular, reusable, and maintainable software systems.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Devops",
-    desc: "OOP principles to build scalable, maintainable, and efficient software solutions.",
+    title: "Problem Solving & Software Engineering",
+    desc: "Experienced in breaking down complex problems, designing logical solutions, and implementing clean, efficient code with a focus on correctness and scalability",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Database Management System",
-    desc: "Designed, optimized, and managed relational and NoSQL databases, ensuring data integrity, security, and high-performance queries.",
+    title: "Systems Thinking",
+    desc: "Approach problem solving by understanding system constraints, data flow, and interactions between components to build reliable software solutions.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -236,7 +240,6 @@ export const socialMedia = [
     id: 1,
     img: "/git.svg",
     link: "https://github.com/the-raja",
-
   },
   {
     id: 2,
