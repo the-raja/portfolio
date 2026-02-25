@@ -74,7 +74,7 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: " Cloudly – Smart File Management",
+    title: "Smart File Management",
     des: "A powerful storage management designed for effortless file organization, retrieval, and collaboration",
     img: "/cloudly.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
@@ -93,6 +93,14 @@ export const projects = [
       "/c.svg",
     ],
     link: "https://chess-18sx.onrender.com/",
+  },
+  {
+    id: 4,
+    title: "Smart Hostel Mess Feedback System",
+    des: "A centralized feedback platform that transforms unstructured hostel complaints into structured, actionable insights, enhancing transparency and data-driven decision-making.",
+    img: "/messy.png",
+    iconLists: ["/next.svg", "/express.svg", "/ts.svg", "/c.svg", ["/re.svg"]],
+    link: "https://messy-matters.vercel.app/",
   },
 ];
 
