@@ -73,14 +73,6 @@ export const gridItems = [
 
 export const projects = [
   {
-    id: 1,
-    title: "Smart File Management",
-    des: "A powerful storage management designed for effortless file organization, retrieval, and collaboration",
-    img: "/cloudly.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://cloudly-storage.vercel.app/",
-  },
-  {
     id: 2,
     title: "Real-Time Chess Game",
     des: "A client-side AI that calculates win probability based on a sophisticated heuristic evaluation function built with Node.js, Express, and Socket.io.",
@@ -101,6 +93,15 @@ export const projects = [
     img: "/messy.png",
     iconLists: ["/next.svg", "/express.svg", "/ts.svg", "/c.svg", ["/re.svg"]],
     link: "https://messy-matters.vercel.app/",
+  },
+
+  {
+    id: 1,
+    title: "Smart File Management",
+    des: "A powerful storage management designed for effortless file organization, retrieval, and collaboration",
+    img: "/cloudly.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    link: "https://cloudly-storage.vercel.app/",
   },
 ];
 
