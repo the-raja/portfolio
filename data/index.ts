@@ -62,9 +62,16 @@ export const gridItems = [
       { name: "DS & AIML", link: "/Certificate_DS_AIML.pdf" },
       {
         name: "Python, EDA, SQL, Machine Learning, NLP, Deep Learning and Gen AI",
-        link: "https://example.com/2",
+        link: "#",
       },
-      { name: "Certification Name 3", link: "https://example.com/3" },
+      {
+        name: "AWS- Cloud Architecting",
+        link: "https://www.credly.com/badges/3e18b768-bea5-4a12-a568-e5ff8bebc765/linked_in_profile",
+      },
+      {
+        name: "UiPath Academy Automation Explorer Training",
+        link: "https://credentials.uipath.com/00a60a1f-69e8-4c82-b760-5dd7e34c620c#acc.s9tzEf8L",
+      },
     ],
   },
   {
@@ -182,7 +189,6 @@ export const techStack = [
       { name: "Java", icon: FaJava },
       { name: "Python", icon: FaPython },
       { name: "C", icon: FaCuttlefish }, // fix for C
-      
     ],
   },
   {
