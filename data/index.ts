@@ -51,17 +51,25 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently working on a Automation Project",
-    description: "The Inside Scoop",
+    title: "Certifications",
+    description: "",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
     img: "/b5.svg",
     spareImg: "/grid.svg",
+    certifications: [
+      { name: "DS & AIML", link: "/Certificate_DS_AIML.pdf" },
+      {
+        name: "Python, EDA, SQL, Machine Learning, NLP, Deep Learning and Gen AI",
+        link: "https://example.com/2",
+      },
+      { name: "Certification Name 3", link: "https://example.com/3" },
+    ],
   },
   {
     id: 6,
-    title: "Let's work in a project together?",
+    title: "Let’s build something together",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -144,101 +152,101 @@ export const testimonials = [
   },
 ];
 
-export const companies = [
+import {
+  FaJava,
+  FaPython,
+  FaAws,
+  FaDocker,
+  FaGitAlt,
+  FaCuttlefish,
+  FaMicrosoft,
+} from "react-icons/fa";
+
+import {
+  SiTypescript,
+  SiNextdotjs,
+  SiReact,
+  SiExpress,
+  SiTensorflow,
+  SiNumpy,
+  SiTailwindcss,
+  SiMongodb,
+  SiJsonwebtokens,
+  SiSocketdotio,
+} from "react-icons/si";
+
+export const techStack = [
   {
-    id: 1,
-    name: "HTML",
-    img: "/html.svg",
-    nameImg: "/cloudName.svg",
+    title: "Programming Languages",
+    items: [
+      { name: "Java", icon: FaJava },
+      { name: "Python", icon: FaPython },
+      { name: "C", icon: FaCuttlefish }, // fix for C
+      
+    ],
   },
   {
-    id: 2,
-    name: "CSS",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    title: "Frameworks & Libraries",
+    items: [
+      { name: "Next.js", icon: SiNextdotjs },
+      { name: "React.js", icon: SiReact },
+      { name: "Express.js", icon: SiExpress },
+      { name: "TensorFlow", icon: SiTensorflow },
+      { name: "NumPy", icon: SiNumpy },
+      { name: "TailwindCSS", icon: SiTailwindcss },
+    ],
   },
   {
-    id: 3,
-    name: "JAVA",
-    img: "/java.svg",
-    nameImg: "/hostName.svg",
+    title: "Tools & Platforms",
+    items: [
+      { name: "Git", icon: FaGitAlt },
+      { name: "MongoDB", icon: SiMongodb },
+      { name: "REST APIs", icon: SiJsonwebtokens }, // fallback
+      { name: "JWT Auth", icon: SiJsonwebtokens },
+      { name: "AWS", icon: FaAws },
+      { name: "Azure", icon: FaMicrosoft },
+      { name: "Docker", icon: FaDocker },
+      { name: "Socket.IO", icon: SiSocketdotio },
+    ],
   },
   {
-    id: 4,
-    name: "PYTHON",
-    img: "/python.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "NextJs",
-    img: "/next.svg",
-    nameImg: "/dockerName.svg",
-  },
-  {
-    id: 6,
-    name: "TypeScript",
-    img: "/typescript.svg",
-    nameImg: "/dockerName.svg",
-  },
-  {
-    id: 8,
-    name: "TailwindCSS",
-    img: "/tailwind.svg",
-    nameImg: "/dockerName.svg",
-  },
-  {
-    id: 9,
-    name: "WordPress",
-    img: "/wordpress.svg",
-    nameImg: "/dockerName.svg",
-  },
-  {
-    id: 10,
-    name: "GITHUB",
-    img: "/github.svg",
-    nameImg: "/dockerName.svg",
-  },
-  {
-    id: 9,
-    name: "Appwrite",
-    img: "/app.svg",
-    nameImg: "/dockerName.svg",
-  },
-  {
-    id: 10,
-    name: "",
-    img: "/aws.svg",
-    nameImg: "/dockerName.svg",
+    title: "Core Competencies",
+    items: [
+      { name: "DSA" },
+      { name: "OOP" },
+      { name: "DBMS" },
+      { name: "System Design" },
+      { name: "Scalable Systems" },
+    ],
   },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: " Data Structures and Algorithms",
-    desc: "Strong foundation in data structures and algorithms, with hands-on experience in problem solving, time–space optimization, and applying algorithmic thinking to real-world systems and applications.",
+    title: "Data Structures & Algorithms",
+    desc: "• Solved 300+ problems\n• Strong in time & space optimization\n• Applied DSA in real-world projects",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
     title: "Object-Oriented Programming (OOP)",
-    desc: "Applied object-oriented principles such as abstraction, inheritance, and polymorphism to design modular, reusable, and maintainable software systems.",
-    className: "md:col-span-2", // change to md:col-span-2
+    desc: "• Designed modular & reusable systems\n• Strong in abstraction, inheritance, polymorphism\n• Focus on clean architecture",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
     title: "Problem Solving & Software Engineering",
-    desc: "Experienced in breaking down complex problems, designing logical solutions, and implementing clean, efficient code with a focus on correctness and scalability",
-    className: "md:col-span-2", // change to md:col-span-2
+    desc: "• Break down complex problems efficiently\n• Write clean, scalable code\n• Focus on correctness & performance",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
     title: "Systems Thinking",
-    desc: "Approach problem solving by understanding system constraints, data flow, and interactions between components to build reliable software solutions.",
+    desc: "• Understand system design & data flow\n• Optimize interactions between components\n• Build reliable & scalable systems",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },

@@ -22,7 +22,7 @@ const Experience = () => {
               //   add these two
               //   you can generate the color from here https://cssgradient.io/
               background: "#756460",
-              
+
               // add this border radius to make it more rounded so that the moving border is more realistic
               borderRadius: `calc(1.75rem* 0.96)`,
             }}
@@ -39,7 +39,7 @@ const Experience = () => {
                 <h1 className="text-start text-xl md:text-2xl font-bold">
                   {card.title}
                 </h1>
-                <p className="text-start text-white mt-3 font-semibold">
+                <p className="text-start text-white mt-3 font-semibold whitespace-pre-line">
                   {card.desc}
                 </p>
               </div>

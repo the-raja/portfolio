@@ -3,24 +3,20 @@
 import React from "react";
 
 import { testimonials } from "@/data";
-import { companies } from "@/data";
+import { techStack } from "@/data";
 import { InfiniteMovingCards } from "./ui/InfiniteCards";
 
 const Clients = () => {
-  console.log("Companies: ", companies);
-  console.log("Testimonials: ", testimonials);
-
   return (
     <section id="testimonials" className="py-20">
+      {/* Heading */}
       <h1 className="heading">
-        My
-        <span className="text-gold"> JOURNEY</span>
+        My <span className="text-gold"> JOURNEY</span>
       </h1>
 
       <div className="flex flex-col items-center max-lg:mt-10">
-        <div
-          className="h-[50vh] md:h-[30rem] rounded-md flex flex-col antialiased items-center justify-center relative overflow-hidden"
-        >
+        {/* Moving Cards */}
+        <div className="h-[50vh] md:h-[30rem] rounded-md flex flex-col items-center justify-center relative overflow-hidden">
           <InfiniteMovingCards
             items={testimonials}
             direction="left"
@@ -28,24 +24,46 @@ const Clients = () => {
           />
         </div>
 
-        <div className="w-full">
-          <div className="flex items-center justify-center h-24 py-4 text-5xl font-semibold">
-           <h1 className="heading">
-               Frameworks & <span className="text-gold">Tools</span>
-          </h1>
+        {/* Tech Stack */}
+        <div className="w-full mt-20">
+          <div className="text-center mb-10">
+            <h1 className="heading">
+              Frameworks & <span className="text-gold">Tools</span>
+            </h1>
           </div>
-          <div className="flex flex-wrap items-center justify-center py-4 gap-4 md:gap-16 max-lg:mt-10">
-            {companies.map((company) => (
-              <React.Fragment key={company.id}>
-                <div className="flex md:max-w-60 max-w-32 gap-2 items-center">
-                  <img
-                    src={company.img}
-                    alt={company.name}
-                    className="md:w-18 w-18"
-                  />
-                  <span className="text-1xl">{company.name}</span>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            {techStack.map((group, i) => (
+              <div
+                key={i}
+                className="bg-gradient-to-br from-[#2a0f0f] to-[#4C3F3C] border border-[#5a2a2a]/40 backdrop-blur-md rounded-2xl p-6 w-full hover:scale-[1.03] hover:border-gold/50 transition duration-300"
+              >
+                <h2 className="text-lg font-semibold text-white mb-4">
+                  {group.title}
+                </h2>
+
+                <div className="flex flex-wrap gap-3">
+                  {group.items.map((item, j) => {
+                    const Icon = item.icon;
+
+                    return (
+                      <div
+                        key={j}
+                        className="flex items-center gap-2 px-3 py-1 rounded-full bg-[#3a1a1a] text-neutral-200 hover:bg-gold hover:text-black transition duration-300"
+                      >
+                        {/* ✅ FIXED ICON RENDER */}
+                        {Icon ? (
+                          <Icon className="w-4 h-4 text-neutral-300" />
+                        ) : (
+                          <span className="w-4 h-4" /> // keeps spacing aligned
+                        )}
+
+                        <span className="text-sm">{item.name}</span>
+                      </div>
+                    );
+                  })}
                 </div>
-              </React.Fragment>
+              </div>
             ))}
           </div>
         </div>

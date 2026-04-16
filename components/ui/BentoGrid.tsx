@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import { IoCopyOutline } from "react-icons/io5";
+import { FaLocationArrow } from "react-icons/fa6";
 import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import GridGlobe from "./GridGlobe";
@@ -19,7 +20,7 @@ export const BentoGrid = ({
                               children,
                           }: {
     className?: string;
-    children?: React.ReactNode;
+    children?: React.Children | React.ReactNode;
 }) => {
     return (
         <div
@@ -42,6 +43,7 @@ export const BentoGridItem = ({
                                   imgClassName,
                                   titleClassName,
                                   spareImg,
+                                  certifications,
                               }: {
     className?: string;
     id: number;
@@ -51,6 +53,7 @@ export const BentoGridItem = ({
     imgClassName?: string;
     titleClassName?: string;
     spareImg?: string;
+    certifications?: { name: string; link: string }[];
 }) => {
     const leftLists = ["Java", "OOPS", "DSA"];
     const rightLists = ["Node", "TailwindCSS", "Git"];
@@ -132,6 +135,23 @@ export const BentoGridItem = ({
                     <div className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10`}>
                         {title}
                     </div>
+
+                    {id === 5 && certifications && (
+                        <div className="mt-5 flex flex-col gap-3 relative z-20">
+                            {certifications.map((cert, index) => (
+                                <a
+                                    key={index}
+                                    href={cert.link}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="flex items-center justify-between p-3 rounded-lg bg-[#10132E] border border-white/[0.1] hover:border-purple transition-all duration-300 group/link"
+                                >
+                                    <span className="text-sm lg:text-base text-white">{cert.name}</span>
+                                    <FaLocationArrow className="ms-2 text-purple group-hover/link:translate-x-1 transition-transform" />
+                                </a>
+                            ))}
+                        </div>
+                    )}
 
                     {id === 2 && <GridGlobe />}
 
