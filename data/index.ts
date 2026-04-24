@@ -59,13 +59,14 @@ export const gridItems = [
     img: "/b5.svg",
     spareImg: "/grid.svg",
     certifications: [
-      { name: "DS & AIML", link: "/Certificate_DS_AIML.pdf" },
+      { name: "DS & AIML",
+        link: "/Certificate_DS_AIML.pdf" },
       {
         name: "Python, EDA, SQL, Machine Learning, NLP, Deep Learning and Gen AI",
-        link: "#",
+        link: "https://www.udemy.com/certificate/UC-dbec4486-dee3-43f3-aaf9-0ca2e967d36d",
       },
       {
-        name: "AWS- Cloud Architecting",
+        name: "AWS - Cloud Architecting",
         link: "https://www.credly.com/badges/3e18b768-bea5-4a12-a568-e5ff8bebc765/linked_in_profile",
       },
       {
