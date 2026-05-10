@@ -73,7 +73,7 @@ const RecentProjects = () => {
                     rel="noopener noreferrer"
                     className="flex lg:text-xl md:text-xs text-sm text-gold items-center"
                   >
-                    Check Live Site
+                    View
                     <FaLocationArrow className="ms-3" color="white" />
                   </a>
                 </div>

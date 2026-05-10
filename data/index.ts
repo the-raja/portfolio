@@ -9,8 +9,8 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "My constant Companion ",
-    description: "From building my projects to solving complex problems.",
+    title: "AI is My Co-Pilot",
+    description: "Building projects and solving complex problems.",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
@@ -19,8 +19,8 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "Building with globally adopted technologies",
-    description: "",
+    title: "Modern Tech Stack",
+    description: "Building scalable and efficient applications.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -29,8 +29,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "Continuously Improving My Core Skills",
+    title: "Core Skills",
+    description: "Improving in AI, development, and problem solving.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -39,8 +39,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title:
-      "Constantly learning, evolving, and pushing the boundaries of what’s possible",
+    title: "Learning, building, and evolving every day",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -88,9 +87,31 @@ export const gridItems = [
 
 export const projects = [
   {
+    id: 1,
+    title: "MIRAI – Autonomous AI Combat System",
+    des: "A memory-augmented AI combat system inspired by NVIDIA ACE that adapts to player behavior using FAISS vector retrieval, tactical decision-making, and emotional state weighting.",
+    img: "/mirai.png",
+    iconLists: ["/python.svg", "/fastapi.svg", "/next.svg", "/ai.svg"],
+    link: "https://github.com/the-raja/Mirai",
+  },
+  {
     id: 2,
+    title: "QuantAgents – Multi-Agent Financial AI",
+    des: "An agentic AI system for financial analysis and market reasoning using autonomous AI agents, LLM workflows, vector memory, and real-time data orchestration.",
+    img: "/quantagents.png",
+    iconLists: [
+      "/python.svg",
+      "/fastapi.svg",
+      "/openai.svg",
+      "/stream.svg",
+      "/ai.svg",
+    ],
+    link: "https://github.com/the-raja/Agentic-AI",
+  },
+  {
+    id: 3,
     title: "Real-Time Chess Game",
-    des: "A client-side AI that calculates win probability based on a sophisticated heuristic evaluation function built with Node.js, Express, and Socket.io.",
+    des: "A real-time multiplayer chess platform with an AI-powered heuristic evaluation engine that calculates win probability using strategic board analysis.",
     img: "/chess.png",
     iconLists: [
       "/next.svg",
@@ -104,16 +125,15 @@ export const projects = [
   {
     id: 4,
     title: "Smart Hostel Mess Feedback System",
-    des: "A centralized feedback platform that transforms unstructured hostel complaints into structured, actionable insights, enhancing transparency and data-driven decision-making.",
+    des: "A centralized analytics-driven platform that converts hostel complaints into structured insights for transparency and data-driven decision-making.",
     img: "/messy.png",
-    iconLists: ["/next.svg", "/express.svg", "/ts.svg", "/c.svg", ["/re.svg"]],
+    iconLists: ["/next.svg", "/express.svg", "/ts.svg", "/c.svg", "/re.svg"],
     link: "https://messy-matters.vercel.app/",
   },
-
   {
-    id: 1,
+    id: 5,
     title: "Smart File Management",
-    des: "A powerful storage management designed for effortless file organization, retrieval, and collaboration",
+    des: "A modern cloud-based file management system for seamless storage, organization, retrieval, and collaboration with an intuitive UI.",
     img: "/cloudly.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "https://cloudly-storage.vercel.app/",
@@ -231,28 +251,28 @@ export const workExperience = [
   {
     id: 1,
     title: "Data Structures & Algorithms",
-    desc: "• Solved 300+ problems\n• Strong in time & space optimization\n• Applied DSA in real-world projects",
+    desc: "• Solved 300+ coding problems\n• Strong in optimization & problem solving\n• Skilled in graphs, trees, DP & advanced algorithms",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Object-Oriented Programming (OOP)",
-    desc: "• Designed modular & reusable systems\n• Strong in abstraction, inheritance, polymorphism\n• Focus on clean architecture",
+    title: "System Design",
+    desc: "• Understand scalable architectures & distributed systems\n• Experience with APIs, databases & caching\n• Focus on reliability, scalability & performance",
     className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Problem Solving & Software Engineering",
-    desc: "• Break down complex problems efficiently\n• Write clean, scalable code\n• Focus on correctness & performance",
+    title: "Data Science",
+    desc: "• Experience with data analysis & preprocessing\n• Worked with visualization & statistical techniques\n• Skilled in extracting insights from real-world datasets",
     className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Systems Thinking",
-    desc: "• Understand system design & data flow\n• Optimize interactions between components\n• Build reliable & scalable systems",
+    title: "Artificial Intelligence & Machine Learning",
+    desc: "• Built AI systems using LLMs & vector databases\n• Experience with NLP, RAG & AI agents\n• Worked with TensorFlow, Scikit-learn & deep learning",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },

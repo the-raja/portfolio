@@ -60,9 +60,9 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl text-grey">
-            Software Engineering Bachelor’s student at KIIT
-            <br /> with a strong focus on problem solving,production-grade code,
-            <br /> and scalable systems.
+            specializing in AI/ML and intelligent systems with strong
+            foundations in
+            <br /> DSA, system design and scalable systems. 
           </p>
 
           <a href="#projects">
