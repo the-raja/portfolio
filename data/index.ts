@@ -58,10 +58,10 @@ export const gridItems = [
     img: "/b5.svg",
     spareImg: "/grid.svg",
     certifications: [
-      { name: "DS & AIML", link: "/Certificate_DS_AIML.pdf" },
+      { name: "DS & AIML", link: "/DS_AIML.pdf" },
       {
         name: "Python, EDA, SQL, Machine Learning, NLP, Deep Learning and Gen AI",
-        link: "#",
+        link: "/AIML to GENAI.pdf",
       },
       {
         name: "AWS- Cloud Architecting",
