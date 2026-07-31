@@ -71,6 +71,10 @@ export const gridItems = [
         name: "UiPath Academy Automation Explorer Training",
         link: "https://credentials.uipath.com/00a60a1f-69e8-4c82-b760-5dd7e34c620c#acc.s9tzEf8L",
       },
+      {
+        name: "Data_Science_siemens",
+        link: "/seimens.pdf",
+      },
     ],
   },
   {
