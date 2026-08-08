@@ -65,12 +65,13 @@ const Hero = () => {
             <br /> DSA, system design and scalable systems. 
           </p>
 
-          <a href="#projects">
+          <a href="https://raja-ai.vercel.app/" target="_blank" rel="noopener noreferrer">
             <MagicButton
-              title="Show my work"
-              icon={<FaLocationArrow />}
-              position="right"
+            title="Ask RIVA"
+            icon={<FaLocationArrow />}
+            position="right"
             />
+          </a>
           </a>
         </div>
       </div>
